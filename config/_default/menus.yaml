@@ -11,9 +11,3 @@ main:
   - name: Projects
     url: '/project'
     weight: 18    
-  - name: Topics
-    url: tags/
-    weight: 20
-  - name: Uses
-    url: uses/
-    weight: 30
