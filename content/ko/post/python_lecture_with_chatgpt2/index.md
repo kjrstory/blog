@@ -17,12 +17,12 @@ categories:
 
 ---
 
-< mark >**User**< /mark >
+<mark>**User**</mark>
 
 실전 예제와 프로젝트 기반 학습
 이것의 예제를 더 들어줄 수 있어?
 
-< mark >**ChatGPT**< /mark >
+<mark>**ChatGPT**</mark>
 
 물론입니다! Click을 사용한 실전 예제 중 몇 가지를 소개해드리겠습니다:
 
@@ -49,11 +49,11 @@ categories:
 
 ---
 
-< mark >**User**< /mark >
+<mark>**User**</mark>
 
 예제를 더 들어줄수도 있어?
 
-< mark >**ChatGPT**< /mark >
+<mark>**ChatGPT**</mark>
 
 물론입니다! 추가적인 Click을 사용한 실전 예제를 몇 가지 더 제시해드리겠습니다:
 
@@ -76,11 +76,11 @@ categories:
 
 ---
 
-< mark >**User**< /mark >
+<mark>**User**</mark>
 
 클라우드와 연동해서 예제를 만들 수 있을까
 
-< mark >**ChatGPT**< /mark >
+<mark>**ChatGPT**</mark>
 
 물론입니다! Click을 사용하여 클라우드 서비스와 연동하는 예제를 몇 가지 제시해드리겠습니다:
 
@@ -105,11 +105,11 @@ categories:
 
 ---
 
-< mark >**User**< /mark >
+<mark>**User**</mark>
 
 그러면 CLI보다 클라우드 SDK같은것들이 더 중요해지지 않을까
 
-< mark >**ChatGPT**< /mark >
+<mark>**ChatGPT**</mark>
 
 맞습니다. Click은 CLI(Command Line Interface) 도구를 개발하기 위한 패키지로서, 사용자가 터미널에서 명령어를 입력하고 실행하는 인터페이스를 제공합니다. Click을 사용하여 CLI를 개발하면 사용자가 간편하게 명령어를 입력하고 실행할 수 있습니다.
 
@@ -133,11 +133,11 @@ categories:
  
 ---
 
-< mark >**User**< /mark >
+<mark>**User**</mark>
 
 음 클라우드와 관련없는 CLI강의용 샘플 예제를 조금만 더 들어줘. 아직도 뭐가 적합한지 모르겠어. 너무 어려워면 그걸 익히는데 시간이 더 걸릴수 있어.
 
-< mark >**ChatGPT**< /mark >
+<mark>**ChatGPT**</mark>
 
 물론입니다! 클라우드와 관련없는 간단한 CLI 예제를 몇 가지 더 제시해드리겠습니다:
 
@@ -163,11 +163,11 @@ CLI로 단위 변환기를 만드는 것은 순전히 강의를 위한 것이라
 
 ---
 
-< mark >**User**< /mark >
+<mark>**User**</mark>
 
 단위 변환기에 대한 Click을 이용한 CLI 프로그램의 샘플을 짜줄래?
 
-< mark >**ChatGPT**< /mark >
+<mark>**ChatGPT**</mark>
 
 물론입니다! 단위 변환기를 구현하는 CLI 프로그램의 샘플 코드를 제공해드리겠습니다. 아래는 Click을 사용하여 길이 변환을 수행하는 예제입니다.
 
@@ -214,11 +214,11 @@ Click도 prompt 기능이 있긴 하지만 사실 prompt기능은 다른 라이�
 ---
 
 
-< mark >**User**< /mark >
+<mark>**User**</mark>
 
 prompt 기능을 사용하지 않는 예제를 짜줘
 
-< mark >**ChatGPT**< /mark >
+<mark>**ChatGPT**</mark>
 
 아래는 `prompt` 기능을 사용하지 않고, 명령줄 인자를 통해 값을 입력받는 단위 변환기 CLI 프로그램의 예제입니다.
 
@@ -265,11 +265,11 @@ Click에는 arguement와 option이 각각 있습니다. 다른 라이브러리�
 
 ---
 
-< mark >**User**< /mark >
+<mark>**User**</mark>
 
 argument대신 option을 사용해줘
 
-< mark >**ChatGPT**< /mark >
+<mark>**ChatGPT**</mark>
 
 아래는 `option`을 사용하여 단위 변환기 CLI 프로그램을 구현한 예제입니다.
 
@@ -316,11 +316,11 @@ python length_converter.py --length 10 --from-unit cm --to-unit mm
 
 ---
 
-< mark >**User**< /mark >
+<mark>**User**</mark>
 
 length뿐만 아니라 다른 단위도 변환해주는 코드를 만들어봐
 
-< mark >**ChatGPT**< /mark >
+<mark>**ChatGPT**</mark>
 
 아래는 여러 단위의 변환을 지원하는 CLI 프로그램의 예제 코드입니다.
 
@@ -376,11 +376,11 @@ python unit_converter.py --value 10 --from-unit cm --to-unit mm
 
 이와 유사한 방식으로 다른 단위의 변환도 지원할 수 있습니다. 필요한 단위 간의 변환 비율을 `conversion_factors` 딕셔너리에 추가하고, 옵션과 계산 로직을 적절하게 수정하여 사용하시면 됩니다.
 
-< mark >**User**< /mark >
+<mark>**User**</mark>
 
 아니지 length, weight, volume같은거를 변수로 받아야지
 
-< mark >**ChatGPT**< /mark >
+<mark>**ChatGPT**</mark>
 
 알겠습니다. 아래는 단위 변환기 CLI 프로그램에서 길이(length), 무게(weight), 체적(volume)을 포함한 여러 단위의 변환을 지원하는 예제 코드입니다.
 
