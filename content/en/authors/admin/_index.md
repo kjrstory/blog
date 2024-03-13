@@ -48,7 +48,7 @@ skills:
         icon: python
         icon_pack: fab
   
-profile:
+profiles:
   - icon: brands/github
     url: https://github.com/kjrstory
   - icon: brands/linkedin
