@@ -17,7 +17,7 @@ marketing:
     description: 'A highly-customizable Hugo blog theme powered by Hugo Blox Builder.'
     twitter: 'GetResearchDev'
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-6WSYK0RKV5'
     baidu_tongji: ''
     plausible: ''
     fathom: ''
@@ -32,6 +32,8 @@ header:
     enable: true
     show_search: true
     show_theme_chooser: true
+    show_translations: true
+    hide_language_name: false
 
 # Site footer
 footer:
@@ -55,6 +57,6 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/HugoBlox/hugo-blox-builder/'
-    content_dir: starters/blog/content
+    url: 'https://github.com/kjrstory/blog/'
+    content_dir: content
     branch: main

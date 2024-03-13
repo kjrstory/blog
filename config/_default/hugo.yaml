@@ -3,47 +3,64 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: "Creator's Blog (Hugo Theme)" # Website name
-baseURL: 'https://example.com/' # Website URL
+title: KJRSTORY # Website name
+baseURL: 'https://kjrstory.netlify.app/' # Website URL
 
 ############################
 ## PAGE OPTIONS
 ############################
 
 cascade:
-  # Blog post options
+  # Configure publications
   - _target:
-      path: /blog/**
+      path: /publication/** 
       kind: page
     pager: true
-    editable: true
+    editable: false
     hide_date: false
     show_date_updated: true
     reading_time: true
     commentable: true
     show_related: true
+    show_breadcrumb: true
     share: true
-    # Just use Breadcrumb for navigation on blog post pages?
-    show_breadcrumb: false
     header:
       navbar:
         enable: true
+
+  # Configure blog posts
+  - _target:
+      path: /post/**
+      kind: page
+    pager: true
+    editable: false
+    hide_date: false
+    show_date_updated: true
+    reading_time: true
+    commentable: true
+    show_related: true
+    show_breadcrumb: true
+    share: true
+    header:
+      navbar:
+        enable: true
+
 
 ############################
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
-hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
+defaultContentLanguage: ko
+hasCJKLanguage: true
+defaultContentLanguageInSubdir: true
 removePathAccents: true
 
 ############################
 ## ADVANCED
 ############################
 
-build:
-  writeStats: true
+##build:
+##  writeStats: true
 enableGitInfo: false
 summaryLength: 30
 paginate: 10
@@ -55,9 +72,10 @@ permalinks:
   authors: '/author/:slug/'
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
+  publication_types: '/publication-type/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, headers, redirects]
+  home: [HTML, RSS, headers, redirects, JSON]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
@@ -67,6 +85,7 @@ timeout: 600000
 taxonomies:
   tag: tags
   category: categories
+  publication_type: publication_types
   author: authors
 markup:
   _merge: deep
