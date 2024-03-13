@@ -20,4 +20,11 @@ sections:
     design:
       spacing:
         padding: ['3rem', 0, '6rem', 0]
+  - block: collection2
+    content:
+      filters:
+        folders:
+          - project
+    design:
+      view: card
 ---
