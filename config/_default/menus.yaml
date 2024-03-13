@@ -8,6 +8,9 @@ main:
   - name: Posts
     url: '/post'
     weight: 15    
+  - name: Projects
+    url: '/project'
+    weight: 18    
   - name: Topics
     url: tags/
     weight: 20
