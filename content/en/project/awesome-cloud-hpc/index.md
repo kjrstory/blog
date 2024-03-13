@@ -6,7 +6,8 @@ tags:
 date: '2024-01-20T08:00:00Z'
 image:
   caption: Awesome Cloud HPC
-  focal_point: Smart
+  focal_point: Center
+  placement: 3
 
 links:
   - icon: github
