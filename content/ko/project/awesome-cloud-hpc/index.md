@@ -4,11 +4,22 @@ summary: Curated list of Cloud HPC
 tags:
   - Cloud
 date: '2024-01-20T08:00:00Z'
+
 image:
-  caption: Awesome Cloud HPC
+  filename: cover_awesome_cloud_hpc.webp
   focal_point: Center
+  preview_only: false
+  caption: Awesome Cloud HPC
 
 links:
+  - icon_pack: fab
+    icon: twitter
+    name: Follow
+    url: 'https://twitter.com/Twitter'
+  - icon_pack: fab
+    icon: medium
+    name: Originally published on Medium
+    url: 'https://medium.com'
   - icon: brands/github
     name: Github
     url: https://github.com/kjrstory/awesome-cloud-hpc
