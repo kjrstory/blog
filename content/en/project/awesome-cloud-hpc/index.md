@@ -7,7 +7,8 @@ date: '2024-01-20T08:00:00Z'
 image:
   caption: Awesome Cloud HPC
   focal_point: Center
-  placement: 3
+  filename: cover_awesome_cloud_hpc.webp
+  preview_only: false
 
 links:
   - icon: github
