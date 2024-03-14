@@ -11,9 +11,10 @@ tags:
 categories:
   - Cloud
 image:
-  filename: featured
+  filename: cover_awesome_cloud_hpc.webp
   focal_point: Smart
   preview_only: false
+  caption: Awesome Cloud HPC
 ---
 
 
@@ -23,7 +24,6 @@ While blog posts can be edited, the term "publish" used in blogging implies that
 
 In searching for something more suited to curation, I came across the ["awesome list"](https://github.com/sindresorhus/awesome) project. 
 This project curates lists on specific topics. It's primarily hosted on GitHub, which might seem like a platform just for sharing programming languages like Python, Java, or C++, but it's also suitable for sharing Markdown files.
-
 These aren't just simple bookmark collections.
 They are formatted documents that provide information consistently. They often include necessary elements for open-source distribution, like contribution guidelines, license documents, and badges. Starting with such a small project, rather than immediately contributing to a large open-source community or launching a major open-source project, can be a good way to become familiar with using GitHub.
 Therefore, I have created and distributed a repository named [awesome-cloud-hpc](https://github.com/kjrstory/awesome-cloud-hpc), adding more links than I had in my previous post.

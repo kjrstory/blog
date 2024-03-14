@@ -14,6 +14,7 @@ image:
   filename: cover_awesome_cloud_hpc.webp
   focal_point: Smart
   preview_only: false
+  caption: Awesome Cloud HPC
 ---
 
 
@@ -36,6 +37,8 @@ awesome 프로젝트는 생각보다 많은 사람들이 사용하는 것 같습
 * [awesome-python](https://github.com/vinta/awesome-python)
 * [awesome-aws](https://github.com/donnemartin/awesome-aws)
 * [awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps)
-{{< icon name="terminal" pack="fas" >}}
 
-{{< icon name="github" pack="brands" >}} [awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps)
+{{< icon name="academic-cap" >}}
+
+{{< icon name="brands/github" >}}  [awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps)
+

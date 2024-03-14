@@ -9,20 +9,16 @@ image:
   focal_point: Center
 
 links:
-  - icon: github
-    icon_pack: brands
+  - icon: brands/github
     name: Github
     url: https://github.com/kjrstory/awesome-cloud-hpc
-  - icon: card
-    icon_pack: hb
+  - icon: hb/card
     name: Github
     url: https://github.com/kjrstory/awesome-cloud-hpc
-  - icon: one
-    icon_pack: hb
+  - icon: hb/one
     name: Github
     url: https://github.com/kjrstory/awesome-cloud-hpc
-  - icon: magnifying-glass
-    icon_pack: hb
+  - icon: hb/magnifying-glass
     name: Github
     url: https://github.com/kjrstory/awesome-cloud-hpc
 ---
