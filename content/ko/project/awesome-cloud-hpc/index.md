@@ -10,7 +10,19 @@ image:
 
 links:
   - icon: github
-    icon_pack: fab
+    icon_pack: brands
+    name: Github
+    url: https://github.com/kjrstory/awesome-cloud-hpc
+  - icon: card
+    icon_pack: hb
+    name: Github
+    url: https://github.com/kjrstory/awesome-cloud-hpc
+  - icon: one
+    icon_pack: hb
+    name: Github
+    url: https://github.com/kjrstory/awesome-cloud-hpc
+  - icon: magnifying-glass
+    icon_pack: hb
     name: Github
     url: https://github.com/kjrstory/awesome-cloud-hpc
 ---

@@ -11,7 +11,7 @@ tags:
 categories:
   - Cloud
 image:
-  filename: featured
+  filename: cover_awesome_cloud_hpc.webp
   focal_point: Smart
   preview_only: false
 ---
@@ -21,12 +21,10 @@ image:
 
 그래서 큐레이션(curation)에 적합한 것을 찾다가 [awesome list](https://github.com/sindresorhus/awesome)라는 프로젝트를 찾았습니다.
 이 프로젝트는 특정 주제로 큐레이팅하여 모아놓은 리스트 프로젝트입니다.
-이 프로젝트는 깃헙에서 하게 되는데 보통 깃헙이라하면 파이썬, 자바, C++같은 프로그래밍언어를 공유해야 될 것 같지만 마크다운을 공유하기에도 적절한 플랫폼입니다. 
-
+이 프로젝트는 깃헙에서 하게 되는데 보통 깃헙에서는 파이썬, 자바, C++같은 프로그래밍언어를 공유해야 될 것 같지만 마크다운을 공유하기에도 적절한 플랫폼입니다. 
 단순히 즐겨찾기 모음 일 것 같지만 문서 형식을 갖춰서 일관성있게 정보를 제공합니다.
 또 오픈소스 배포시 필요한 기여 가이드 라인 문서나 라이센스 문서, 뱃지 등도 작성하게끔 가이드가 되어있습니다.
 처음부터 큰 오픈소스 커뮤니티에 기여하거나 어느 정도 수준이 되는 오픈소스를 배포하려는 욕심을 부리지 말고 이렇게 작게라도 시작을 하면서 깃헙 사용방법에 익숙해지는 것도 좋을 것 같습니다.
-
 그래서 [awesome-cloud-hpc](https://github.com/kjrstory/awesome-cloud-hpc)란 이름으로 리포지토리를 만들어서 배포합니다.
 지난번에 글을 썼던 때보다 더 많은 링크를 추가하였습니다.
 
@@ -38,3 +36,6 @@ awesome 프로젝트는 생각보다 많은 사람들이 사용하는 것 같습
 * [awesome-python](https://github.com/vinta/awesome-python)
 * [awesome-aws](https://github.com/donnemartin/awesome-aws)
 * [awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps)
+{{< icon name="terminal" pack="fas" >}}
+
+{{< icon name="github" pack="brands" >}} [awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps)

@@ -26,12 +26,9 @@ This project curates lists on specific topics. It's primarily hosted on GitHub, 
 
 These aren't just simple bookmark collections.
 They are formatted documents that provide information consistently. They often include necessary elements for open-source distribution, like contribution guidelines, license documents, and badges. Starting with such a small project, rather than immediately contributing to a large open-source community or launching a major open-source project, can be a good way to become familiar with using GitHub.
-
 Therefore, I have created and distributed a repository named [awesome-cloud-hpc](https://github.com/kjrstory/awesome-cloud-hpc), adding more links than I had in my previous post.
 
 The awesome project seems to be more widely used than I thought. If you search for "awesome-{topic}", you'll likely find a list that someone has already created on your topic of interest. You can contribute to an existing list repository, or if you don't find one that suits your needs, you can create your own. 
-
-
 Below are some awesome lists that I have been interested in, which have been recently updated:
 * [awesome-high-performance-computing](https://github.com/trevor-vincent/awesome-high-performance-computing)
 * [awesome-hpc](https://github.com/dstdev/awesome-hpc)
