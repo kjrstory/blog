@@ -239,17 +239,17 @@ with Diagram("Clustered Web Services", show=False):
     svc_group >> db_primary
     svc_group >> memcached
 ```
-{{<figure src="clustered_web_services_diagram.png" caption="Clustered Web Services(from Diagrams)" width="75%" >}}
+{{<figure src="clustered_web_services_diagram.png" caption="Clustered Web Services(from Diagrams)" width="100%" >}}
 
 Diagrams의 Cluster 함수는 여러 노드를 그룹핑해서 하나의 상자안에 그려주는 함수입니다.
 이걸 D2로도 그려보겠습니다.
 이번엔 그림부터 보여드리겠습니다.
 
-{{<figure src="example3_1.png" caption="Clustered Web Services(D2 Case 1)" width="80%" >}}
+{{<figure src="example3_1.png" caption="Clustered Web Services(D2 Case 1)" width="100%" >}}
 
 이렇게 하면 유사하게 그린 것인데요. 화살표가 너무 지저분하게 있다는 것이 걸립니다. D2에서는 하나의 상자안에 그리는 기능을 Container라고 하는데 Container와 노드를 연결할 수 있습니다. 사실 그림으로 봐야 이해가 갈겁니다.
 
-{{<figure src="example3_2.png" caption="Clustered Web Services(D2 Case 2)" width="80%" >}}
+{{<figure src="example3_2.png" caption="Clustered Web Services(D2 Case 2)" width="100%" zoom="true" >}}
 
 표현하고 싶은 것에 따라 다르겠지만 저 개인적으로는 후자처럼 그리는 것이 더 깔끔해서 좋은 것 같습니다. Diagrams에서는 아직 상자(Cluster)로 연결시켜주는 기능은 없습니다.
 작성한 코드는 이렇습니다.
