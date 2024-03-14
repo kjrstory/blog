@@ -12,7 +12,7 @@ categories:
   - Cloud
 image:
   filename: cover_awesome_cloud_hpc.webp
-  focal_point: Smart
+  focal_point: Center
   preview_only: false
   caption: Awesome Cloud HPC
 ---
