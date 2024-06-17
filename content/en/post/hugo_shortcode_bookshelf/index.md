@@ -1,7 +1,7 @@
 ---
 title: Developing a Bookshelf Shortcode in Hugo
 date: 2024-03-12T08:00:00.00Z
-draft: false
+draft: true
 featured: false
 authors:
   - admin
