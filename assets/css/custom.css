@@ -1,3 +1,7 @@
 .prose p  {
-    font-size: 0.7em; /* 단락의 폰트 크기를 1em으로 설정 (기본 크기와 동일) */
+    font-size: 0.8em; /* 단락의 폰트 크기를 1em으로 설정 (기본 크기와 동일) */
+}
+
+.max-w-screen {
+    max-width: 1600px; /* 원하는 최대 너비로 설정 */
 }
