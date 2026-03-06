@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: KJRSTORY # Website name
-baseURL: 'https://kjrstory.netlify.app/' # Website URL
+baseURL: 'https://blogblogblogblog.netlify.app/' # Website URL
 
 ############################
 ## PAGE OPTIONS
@@ -61,9 +61,10 @@ removePathAccents: true
 
 ##build:
 ##  writeStats: true
-enableGitInfo: false
+enableGitInfo: true
 summaryLength: 30
-paginate: 10
+pagination:
+  pagerSize: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
