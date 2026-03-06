@@ -1,0 +1,17 @@
+# Hugo
+public/
+resources/
+.hugo_build.lock
+go.sum
+assets/jsconfig.json
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+
+# OMC
+.omc/
